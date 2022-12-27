@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    padding: 150px 0;
+    text-align: center;
+    &_title{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        padding-bottom: 40px;
+    }
+    &_input{
+        text-align: center;
+        padding: 5px 5px;
+        margin: 0 5px;
+        border-radius: 17px;
+    }
+    &_btn{
+        padding: 5px 5px;
+        border-radius: 17px;
+        border-color: aqua;
+    }
+    &_link{
+        color: rgb(0, 145, 255);
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    &-s{
+        text-align: center;
+        padding: 20px 20px;
+    }
+    &_ul{
+        list-style: none;
+    }
+    
+    &_p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        list-style: none;
+    }
+    
+    
+}
